@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+/* section {
   overflow: hidden;
   position: absolute;
   width: 100%;
@@ -311,7 +311,7 @@ section {
   opacity: 0;
   transition: ease-in-out 0.4s;
   z-index: 2;
-}
+} */
 
 section.section-show {
   top: 100px;
