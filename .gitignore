@@ -1,0 +1,13 @@
+ <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Foodies Hub</h4>
+              <p>React, Redux, React Router, Javascript(ES6), Webpack, Tailwind, HTML5, CSS3, Responsive Web Design</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-2.png" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a> -->
+                <a href="projects/project-details-2.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
