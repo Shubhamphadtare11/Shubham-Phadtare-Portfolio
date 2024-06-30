@@ -1,21 +1,24 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background-color: #040404; /* Set the background color */
   color: #fff;
-  position: relative;
-  background: transparent;
+  margin: 0; /* Remove default margin */
+  overflow-x: hidden; /* Ensure no horizontal scroll */
 }
 
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: linear-gradient(to bottom, #000000, #040404); /* Stronger black gradient */
+  background-image: url("../img/bgimage3.png"); /* Image overlay */
+  background-position: top right;
+  background-repeat: no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
   top: 0;
-  height: 100vh;
+  bottom: 0;
   z-index: -1;
 }
 
@@ -73,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
 }
 
 #header h2 span {
